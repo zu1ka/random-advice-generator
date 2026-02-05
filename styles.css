@@ -1,0 +1,36 @@
+ body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .advice-container{
+      background-color:hsl(228, 45%, 44%);  ;
+      width: 400px;
+      height: 200px;
+      position: relative;
+      /* display: flex; */
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+      font-family: sans-serif;
+      border-radius: 30px;
+
+    }
+    p{
+      font-weight: 900;
+      color: #fff;
+    }
+    .divider-container{
+      width: 100%;
+    }
+    .divider-container > img {
+      width: 90%;
+    }
+
+.advice-container button {
+    margin-top: 30px;
+    padding: 5px;
+    
+}
